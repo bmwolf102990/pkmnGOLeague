@@ -1,9 +1,9 @@
 "use client"
 
-import { useState, useEffect, useMemo } from "react";
+// import { useState, useEffect, useMemo } from "react";
 import Image from "next/image";
 import newFrontier from  "../../public/images/new-frontier.jpg";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 
 export default function Home() {
 
@@ -22,14 +22,14 @@ export default function Home() {
   return (
     <>
       <Image
-        className="relative z-10"
+        className="relative"
         src={newFrontier}
         fill={true}
         quality={100}
         style={bgImageStyle}
         alt=""
       />
-      <div className="h-[100px] my-36 sm:my-52 md:my-52 lg:my-52 xl:my-52 2xl:my-52 px-4 text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-4xl text-center font-light">
+      {/* <div className="">
         <Typewriter
           options={{
             strings: [
@@ -43,13 +43,13 @@ export default function Home() {
               "The Pokémon GO League is coming soon!",
               "",
             ],
-            wrapperClassName:'',
-            cursorClassName: '',
+            wrapperClassName:"",
+            cursorClassName: "font-thin",
             autoStart: true,
             loop: true,
           }}
         />
-      </div>
+      </div> */}
     </>
   );
 }
