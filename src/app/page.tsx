@@ -20,7 +20,7 @@ export default function Home() {
   };
   
   return (
-    <div className="h-screen w-screen">
+    <>
       <Image
         className="relative"
         src={newFrontier}
@@ -57,6 +57,6 @@ export default function Home() {
           }}
         />
       </div> */}
-    </div>
+    </>
   );
 }
