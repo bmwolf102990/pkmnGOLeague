@@ -29,6 +29,13 @@ export default function Home() {
         style={bgImageStyle}
         alt=""
       />
+      <div className="flex flex-col-reverse h-screen w-screen">
+        <div className="flex h-2/5 w-screen justify-center">
+          <button className="bg-white hover:bg-gray-300 lg:text-lg xl:text-xl 2xl:text-2xl text-black border border-gray-300 py-2 px-6 rounded shadow self-center">
+            Learn More
+          </button>
+        </div>
+      </div>
       {/* <div className="">
         <Typewriter
           options={{
