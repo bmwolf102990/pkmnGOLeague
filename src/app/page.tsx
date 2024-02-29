@@ -29,7 +29,7 @@ export default function Home() {
         style={bgImageStyle}
         alt=""
       />
-      <div className="h-[100px] my-28 sm:my-32 md:my-36 lg:my-48 xl:my-56 2xl:my-96 px-4 text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl text-center font-light">
+      <div className="h-[100px] sm:my-52 md:my-52 lg:my-52 xl:my-52 2xl:my-52 px-4 text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-4xl text-center font-light">
         <Typewriter
           options={{
             strings: [
