@@ -14,7 +14,7 @@ export default function Info() {
   return (
     <>
         <div className="flex flex-col h-auto w-screen bg-black">
-            <section id="info-head" className="flex flex-col h-auto w-screen min-[600px]:h-screen">
+            <section id="info-head" className="flex flex-col h-auto w-screen">
                 <div className="flex flex-row justify-center pt-12">
                     <Image
                     className="pokeball h-10 w-10 min-[600px]:h-20 min-[600px]:w-20"
@@ -23,7 +23,7 @@ export default function Info() {
                     alt=""
                     />
                 </div>
-                <div className="flex flex-col w-screen text-justify text-xs font-light px-6 min-[600px]:text-center">
+                <div className="flex flex-col w-screen text-justify text-sm font-light px-6 min-[600px]:text-center">
                     <p className="py-2">
                         Pokémon GO League is inpired by my love of the Pokémon anime series, video games, and, obviously, Pokémon GO.
                     </p>
@@ -49,14 +49,14 @@ export default function Info() {
                     </a>
                 </div>
             </section>
-            <section id="info-conferences" className="flex flex-col h-auto w-screen text-justify text-xs font-light min-[600px]:flex-row-reverse min-[600px]:h-screen">
+            <section id="info-conferences" className="flex flex-col h-auto w-screen text-justify text-sm font-light min-[600px]:flex-row-reverse">
                 <Image
-                className="h-1/4 w-screen min-[600px]:h-screen min-[600px]:w-[60vw]"
+                className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={IndigoPlateau}
                 quality={100}
                 alt=""
                 />
-                <div className="font-light px-6 min-[600px]:h-screen min-[600px]:w-[40vw]">
+                <div className="font-light px-6 min-[600px]:w-[45vw]">
                     <h3 className=" font-bold text-lg text-center py-4">Regional League Conferences</h3>
                     <p className="py-2">
                         From the Indigo Plateau to Manalo Stadium, follow in the footsteps of Ash Ketchum and compete to become the champion of regional conferences from around the Pokémon world.
@@ -82,14 +82,14 @@ export default function Info() {
                     </a>
                 </div>
             </section>
-            <section id="info-coronation" className="flex flex-col h-auto w-screen text-justify text-xs font-light min-[600px]:flex-row min-[600px]:h-screen">
+            <section id="info-coronation" className="flex flex-col h-auto w-screen text-justify text-sm font-light min-[600px]:flex-row">
                 <Image
-                className="h-1/4 w-screen min-[600px]:h-screen min-[600px]:w-[60vw]"
+                className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={WorldCoronation}
                 quality={100}
                 alt=""
                 />
-                <div className="font-light px-6 min-[600px]:h-screen min-[600px]:w-[40vw]">
+                <div className="font-light px-6 min-[600px]:h-auto min-[600px]:w-[45vw]">
                     <h3 className=" font-bold text-lg text-center py-4">World Coronation Series</h3>
                     <p className="py-2">
                         After all of the regional tournaments have concluded, each of the eight regional champions will be invited to compete in the Masters Eight tournament, as part of the World Coronation Series.
@@ -112,14 +112,14 @@ export default function Info() {
                     </a>
                 </div>
             </section>
-            <section id="info-tower" className="flex flex-col h-auto w-screen text-justify text-xs font-light min-[600px]:flex-row-reverse min-[600px]:h-screen">
+            <section id="info-tower" className="flex flex-col h-auto w-screen text-justify text-sm font-light min-[600px]:flex-row-reverse">
                 <Image
-                className="h-1/4 w-screen min-[600px]:h-screen min-[600px]:w-[60vw]"
+                className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={BattleTower}
                 quality={100}
                 alt=""
                 />
-                <div className="font-light px-6 min-[600px]:h-screen min-[600px]:w-[40vw]">
+                <div className="font-light px-6 min-[600px]:h-auto min-[600px]:w-[45vw]">
                     <h3 className=" font-bold text-lg text-center py-4">Battle Tower</h3>
                     <p className="py-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit necessitatibus, illo dolorum explicabo doloribus debitis corporis mollitia dicta quae placeat magni esse sunt atque vel, asperiores ipsam possimus, facilis quas.
@@ -142,14 +142,14 @@ export default function Info() {
                     </a>
                 </div>
             </section>
-            <section id="info-safari" className="flex flex-col h-auto w-screen text-justify text-xs font-light min-[600px]:flex-row">
+            <section id="info-safari" className="flex flex-col h-auto w-screen text-justify text-sm font-light min-[600px]:flex-row">
                 <Image
-                className="h-1/4 w-screen min-[600px]:h-screen min-[600px]:w-[60vw]"
+                className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={SafariBoat}
                 quality={100}
                 alt=""
                 />
-                <div className="font-light px-6 min-[600px]:h-screen min-[600px]:w-[40vw]">
+                <div className="font-light px-6 min-[600px]:h-auto min-[600px]:w-[45vw]">
                     <h3 className=" font-bold text-lg text-center py-4">Safari Battle Zone</h3>
                     <p className="py-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit necessitatibus, illo dolorum explicabo doloribus debitis corporis mollitia dicta quae placeat magni esse sunt atque vel, asperiores ipsam possimus, facilis quas.
