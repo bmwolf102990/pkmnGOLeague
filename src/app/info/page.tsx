@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image";
+import { Footer } from "@/components/Footer/Footer";
 import { FaCircleArrowDown, FaCircleArrowUp } from "react-icons/fa6"
 
 import PokeBall from "../../../public/images/pokeball.png"
@@ -172,6 +173,7 @@ export default function Info() {
                     </a>
                 </div>
             </section>
+            <Footer />
         </div>
     </>
   );
