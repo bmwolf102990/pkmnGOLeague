@@ -23,7 +23,7 @@ export default function Info() {
                     alt=""
                     />
                 </div>
-                <div className="flex flex-col w-screen text-justify text-sm font-light px-6 min-[600px]:text-center">
+                <div className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:text-center">
                     <p className="py-2">
                         Pokémon GO League is inpired by my love of the Pokémon anime series, video games, and, obviously, Pokémon GO.
                     </p>
@@ -45,19 +45,19 @@ export default function Info() {
                 </div>
                 <div className="flex flex-row justify-center items-end w-screen py-2 min-[600px]:py-16">
                     <a href="/info#info-conferences">
-                        <FaCircleArrowDown className="h-[6vh] w-[6vw]"/>
+                        <FaCircleArrowDown className="h-[6vh] w-[6vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
                     </a>
                 </div>
             </section>
-            <section id="info-conferences" className="flex flex-col h-auto w-screen text-justify text-sm font-light min-[600px]:flex-row-reverse">
+            <section id="info-conferences" className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row-reverse">
                 <Image
                 className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={IndigoPlateau}
                 quality={100}
                 alt=""
                 />
-                <div className="font-light px-6 min-[600px]:w-[45vw]">
-                    <h3 className=" font-bold text-lg text-center py-4">Regional League Conferences</h3>
+                <div className="font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:w-[45vw]">
+                    <h3 className=" font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center py-4 xl:py-8 min-[2000px]:py-16">Regional League Conferences</h3>
                     <p className="py-2">
                         From the Indigo Plateau to Manalo Stadium, follow in the footsteps of Ash Ketchum and compete to become the champion of regional conferences from around the Pokémon world.
                     </p>
@@ -70,9 +70,9 @@ export default function Info() {
                     <p className="py-2">
                         Regional conference tournaments will each have unique pokémon eligibility restrictions. 
                     </p>
-                    <div className="flex flex-row justify-center w-[40vw] py-4 pr-12 max-[600px]:hidden">
+                    <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
                         <a href="/info#info-coronation">
-                            <FaCircleArrowDown className="h-[6vh] w-[6vw]"/>
+                            <FaCircleArrowDown className="h-[6vh] w-[6vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
                         </a>
                     </div>
                 </div>
@@ -82,15 +82,15 @@ export default function Info() {
                     </a>
                 </div>
             </section>
-            <section id="info-coronation" className="flex flex-col h-auto w-screen text-justify text-sm font-light min-[600px]:flex-row">
+            <section id="info-coronation" className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row">
                 <Image
                 className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={WorldCoronation}
                 quality={100}
                 alt=""
                 />
-                <div className="font-light px-6 min-[600px]:h-auto min-[600px]:w-[45vw]">
-                    <h3 className=" font-bold text-lg text-center py-4">World Coronation Series</h3>
+                <div className="font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:h-auto min-[600px]:w-[45vw]">
+                    <h3 className=" font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center py-4 xl:py-8 min-[2000px]:py-16">World Coronation Series</h3>
                     <p className="py-2">
                         After all of the regional tournaments have concluded, each of the eight regional champions will be invited to compete in the Masters Eight tournament, as part of the World Coronation Series.
                     </p>
@@ -100,9 +100,9 @@ export default function Info() {
                     <p className="py-2">
                         There will also be Premier-, Ultra-, Great- and Normal-classed tournaments set up for qualifying trainers, based on their performances in the previous regional tournaments.
                     </p>
-                    <div className="flex flex-row justify-center w-[40vw] py-4 pr-12 max-[600px]:hidden">
+                    <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
                         <a href="/info#info-tower">
-                            <FaCircleArrowDown className="h-[6vh] w-[6vw]"/>
+                            <FaCircleArrowDown className="h-[6vh] w-[6vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
                         </a>
                     </div>
                 </div>
@@ -112,15 +112,15 @@ export default function Info() {
                     </a>
                 </div>
             </section>
-            <section id="info-tower" className="flex flex-col h-auto w-screen text-justify text-sm font-light min-[600px]:flex-row-reverse">
+            <section id="info-tower" className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row-reverse">
                 <Image
                 className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={BattleTower}
                 quality={100}
                 alt=""
                 />
-                <div className="font-light px-6 min-[600px]:h-auto min-[600px]:w-[45vw]">
-                    <h3 className=" font-bold text-lg text-center py-4">Battle Tower</h3>
+                <div className="font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:h-auto min-[600px]:w-[45vw]">
+                    <h3 className=" font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center py-4 xl:py-8 min-[2000px]:py-16">Battle Tower</h3>
                     <p className="py-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit necessitatibus, illo dolorum explicabo doloribus debitis corporis mollitia dicta quae placeat magni esse sunt atque vel, asperiores ipsam possimus, facilis quas.
                     </p>
@@ -130,9 +130,9 @@ export default function Info() {
                     <p className="py-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa hic consequatur quod culpa voluptatibus debitis assumenda excepturi, repellat totam, impedit enim provident ipsam delectus illum cumque. At, consequuntur ducimus.
                     </p>
-                    <div className="flex flex-row justify-center w-[40vw] py-4 pr-12 max-[600px]:hidden">
+                    <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
                         <a href="/info#info-safari">
-                            <FaCircleArrowDown className="h-[6vh] w-[6vw]"/>
+                            <FaCircleArrowDown className="h-[6vh] w-[6vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
                         </a>
                     </div>
                 </div>
@@ -142,15 +142,15 @@ export default function Info() {
                     </a>
                 </div>
             </section>
-            <section id="info-safari" className="flex flex-col h-auto w-screen text-justify text-sm font-light min-[600px]:flex-row">
+            <section id="info-safari" className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row">
                 <Image
                 className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={SafariBoat}
                 quality={100}
                 alt=""
                 />
-                <div className="font-light px-6 min-[600px]:h-auto min-[600px]:w-[45vw]">
-                    <h3 className=" font-bold text-lg text-center py-4">Safari Battle Zone</h3>
+                <div className="font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:h-auto min-[600px]:w-[45vw]">
+                    <h3 className=" font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center py-4 xl:py-8 min-[2000px]:py-16">Safari Battle Zone</h3>
                     <p className="py-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit necessitatibus, illo dolorum explicabo doloribus debitis corporis mollitia dicta quae placeat magni esse sunt atque vel, asperiores ipsam possimus, facilis quas.
                     </p>
@@ -160,9 +160,9 @@ export default function Info() {
                     <p className="py-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa hic consequatur quod culpa voluptatibus debitis assumenda excepturi, repellat totam, impedit enim provident ipsam delectus illum cumque. At, consequuntur ducimus.
                     </p>
-                    <div className="flex flex-row justify-center w-[40vw] py-4 pr-12 max-[600px]:hidden">
+                    <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
                         <a href="/info#info-head">
-                            <FaCircleArrowUp className="h-[6vh] w-[6vw]"/>
+                            <FaCircleArrowUp className="h-[6vh] w-[6vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
                         </a>
                     </div>
                 </div>
