@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Footer } from "@/components/Footer/Footer";
+import { Header } from "../../components/Header/Header";
 import { FaCircleArrowDown, FaCircleArrowUp } from "react-icons/fa6"
 
 import PokeBall from "../../../public/images/pokeball.png"
@@ -14,7 +15,8 @@ export default function Info() {
   
   return (
     <>
-        <div className="flex flex-col h-auto w-screen bg-black">
+        <Header />
+        <div className="z-0 flex flex-col h-auto w-screen bg-black">
             <section id="info-head" className="flex flex-col h-auto w-screen">
                 <div className="flex flex-row justify-center pt-12">
                     <Image
