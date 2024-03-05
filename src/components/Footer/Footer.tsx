@@ -9,7 +9,7 @@ export const Footer = () => {
                 <span><AiOutlineCopyright className="inline"/> 2024 Pokémon GO League | </span>
             </div>
             <div>
-                <span>developed with <BsHeart className="inline"/> by <a className="underline hover:text-zinc-500" href="https://github.com/bmwolf102990">backpackerBMW</a></span>
+                <span>developed with <BsHeart className="inline"/> by <a className="underline hover:text-zinc-400" href="https://github.com/bmwolf102990">BackpackerBMW</a></span>
             </div>
         </footer>
     );
