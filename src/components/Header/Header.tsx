@@ -25,14 +25,14 @@ export const Header = () => {
                 </nav>
                 {isMobileMenu === true ? 
                     <ul className="absolute h-auto w-screen bg-white text-black text-center border-t-2 border-black">
-                        <li className="py-3 border hover:bg-zinc-500 hover:text-white">Home</li>
-                        <li className="py-3 border hover:bg-zinc-500 hover:text-white">Pokémon Center</li>
-                        <li className="py-3 border hover:bg-zinc-500 hover:text-white">Trainer Resources</li>
-                        <li className="py-3 border hover:bg-zinc-500 hover:text-white">Trainer Dex</li>
-                        <li className="py-3 border hover:bg-zinc-500 hover:text-white">Conferences</li>
-                        <li className="py-3 border hover:bg-zinc-500 hover:text-white">Battle Tower</li>
-                        <li className="py-3 border hover:bg-zinc-500 hover:text-white">Safari Battle Zone</li>
-                        <li className="py-3 border hover:bg-zinc-500 hover:text-white *:hover:fill-white"><BsHeartFill className="inline fill-red-600 hover:parent:fill-white" /> Sponsor Us</li>
+                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Home</li>
+                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Pokémon Center</li>
+                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Trainer Resources</li>
+                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Trainer Dex</li>
+                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Conferences</li>
+                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Battle Tower</li>
+                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Safari Battle Zone</li>
+                        <li className="py-3 border hover:bg-zinc-400 hover:text-white *:hover:fill-white"><BsHeartFill className="inline fill-red-600 hover:parent:fill-white" /> Sponsor Us</li>
                     </ul>
                 :null}
             </header>
