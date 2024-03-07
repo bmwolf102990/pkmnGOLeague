@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import { BsHeart,BsHeartFill, BsList, BsX } from "react-icons/bs";
+import { BsHeartFill, BsList, BsX } from "react-icons/bs";
 
 import PokeBall from "../../../public/images/pokeball.png";
 
