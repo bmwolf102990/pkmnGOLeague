@@ -60,7 +60,7 @@ export default function Info() {
                 alt=""
                 />
                 <div className="font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:w-[45vw]">
-                    <h3 className=" font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center py-4 xl:py-8 min-[2000px]:py-16">Regional League Conferences</h3>
+                    <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center py-4 xl:py-8 min-[2000px]:py-16">Regional League Conferences</h3>
                     <p className="py-2">
                         From the Indigo Plateau to Manalo Stadium, follow in the footsteps of Ash Ketchum and compete to become the champion of regional conferences from around the Pokémon world.
                     </p>
