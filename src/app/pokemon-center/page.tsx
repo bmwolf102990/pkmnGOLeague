@@ -47,10 +47,10 @@ export default function PokemonCenter() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusantium explicabo, expedita maxime laborum odio, vel cumque nam laboriosam consectetur debitis eos aut nemo quisquam ratione, illo rerum deleniti harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, in distinctio mollitia blanditiis illum officiis nobis numquam culpa ad vero consequatur ducimus et quae beatae tenetur totam! Nesciunt, explicabo soluta.
                     </p>
                 </section>
-                <section id="registration-section" className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light px-3 xl:px-6 min-[2000px]:px-12 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
+                <section id="registration-section" className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl px-3 xl:px-6 min-[2000px]:px-12 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
                     <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center">Register To Compete</h3>
-                    <span className="py-2 text-xs text-center">
-                        please upload an image of your QR Battle Code for other trainers to scan
+                    <span className="py-2 text-xs text-center font-thin">
+                        please upload an image of your QR Battle Code, from the Pokémon GO app, for other trainers to scan
                     </span>
                     <form className="grid grid-col-1 gap-2 py-8 justify-center border rounded text-center">
                         <input className="p-1 rounded-sm text-black" type="text" placeholder="First Name" required/>
