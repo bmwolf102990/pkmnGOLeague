@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Footer } from "@/components/Footer/Footer";
 import { Header } from "../../components/Header/Header";
+import { ResponsiveCarousel } from "../../components/ResponsiveCarousel/ResponsiveCarousel";
 // import { FaCircleArrowDown } from "react-icons/fa6"
 
 import PokeCenter from "../../../public/images/pokemon-center.jpg";
@@ -41,11 +42,12 @@ export default function PokemonCenter() {
                         </button>
                     </a>
                 </section>
-                <section className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
+                <section className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
                     <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center pb-8">League News</h3>
-                    <p>
+                    {/* <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusantium explicabo, expedita maxime laborum odio, vel cumque nam laboriosam consectetur debitis eos aut nemo quisquam ratione, illo rerum deleniti harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, in distinctio mollitia blanditiis illum officiis nobis numquam culpa ad vero consequatur ducimus et quae beatae tenetur totam! Nesciunt, explicabo soluta.
-                    </p>
+                    </p> */}
+                    <ResponsiveCarousel />
                 </section>
                 <section id="registration-section" className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl px-3 xl:px-6 min-[2000px]:px-12 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
                     <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center">Register To Compete</h3>
