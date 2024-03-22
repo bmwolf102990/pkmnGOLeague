@@ -18,9 +18,9 @@ export default function Info() {
         <Header />
         <div className="z-0 flex flex-col h-auto w-screen bg-black">
             <section id="info-head" className="flex flex-col h-auto w-screen">
-                <div className="flex flex-row justify-center pt-12">
+                <div className="flex flex-row justify-center py-10">
                     <Image
-                    className="pokeball h-10 w-10 min-[600px]:h-20 min-[600px]:w-20"
+                    className="pokeball-spin h-16 w-16 min-[600px]:h-20 min-[600px]:w-20"
                     src={PokeBall}
                     quality={100}
                     alt=""
