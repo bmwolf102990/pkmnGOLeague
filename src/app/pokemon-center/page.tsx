@@ -51,15 +51,15 @@ export default function PokemonCenter() {
                     <span className="py-2 text-xs text-center font-thin">
                         please upload an image of your QR Battle Code, from the Pokémon GO app, for other trainers to scan
                     </span>
-                    <form className="grid grid-col-1 gap-2 justify-center border rounded text-center">
-                        <input className="p-1 mt-4 mx-4 rounded-sm text-black" type="text" placeholder="First Name" required/>
-                        <input className="p-1 mx-4 rounded-sm text-black" type="text" placeholder="Last Name"required/>
-                        <input className="p-1 mx-4 rounded-sm text-black" type="text" placeholder="Trainer Name" required/>
-                        <input className="p-1 mx-4 rounded-sm text-black" type="text" placeholder="Trainer Code" pattern="\d{4}\s\d{4}\s\d{4}" title="#### #### ####" required/>
-                        <input className="p-1 mx-4 rounded-sm text-black" type="email" placeholder="Email" required/>
-                        <input className="p-1 mx-4 rounded-sm text-black" type="password" placeholder="Password" required/>
-                        <input className="py-2 mx-4 rounded-sm text-black" type="file" accept=".jpeg, .jpg, .png" required/>
-                        <button className="mb-4 mx-4 bg-green-500 hover:bg-green-300 text-black font-bold hover:outline hover:outline-offset-2 hover:outline-green-300 py-2 px-4 rounded">
+                    <form className="grid grid-cols-2 gap-2 justify-center border rounded text-center">
+                        <input className="max-[420px]:col-span-2 p-1 mt-4 mx-4 min-[420px]:ml-4 min-[420px]:mr-0 rounded-sm text-black" type="text" placeholder="First Name" required/>
+                        <input className="max-[420px]:col-span-2 p-1 min-[420px]:mt-4 mx-4 min-[420px]:mr-4 min-[420px]:ml-0 rounded-sm text-black" type="text" placeholder="Last Name"required/>
+                        <input className="max-[420px]:col-span-2 p-1 mx-4 min-[420px]:ml-4 min-[420px]:mr-0 rounded-sm text-black" type="text" placeholder="Trainer Name" required/>
+                        <input className="max-[420px]:col-span-2 p-1 mx-4 min-[420px]:mr-4 min-[420px]:ml-0 rounded-sm text-black" type="text" placeholder="Trainer Code" pattern="\d{4}\s\d{4}\s\d{4}" title="#### #### ####" required/>
+                        <input className="max-[420px]:col-span-2 p-1 mx-4 min-[420px]:ml-4 min-[420px]:mr-0 rounded-sm text-black" type="email" placeholder="Email" required/>
+                        <input className="max-[420px]:col-span-2 p-1 mx-4 min-[420px]:mr-4 min-[420px]:ml-0 rounded-sm text-black" type="password" placeholder="Password" required/>
+                        <input className="col-span-2 py-2 mx-4 rounded-sm text-black" type="file" accept=".jpeg, .jpg, .png" required/>
+                        <button className="col-span-2 mb-4 mx-4 bg-green-500 hover:bg-green-300 text-black font-bold hover:outline hover:outline-offset-2 hover:outline-green-300 py-2 px-4 rounded">
                             Submit
                         </button>
                     </form>
