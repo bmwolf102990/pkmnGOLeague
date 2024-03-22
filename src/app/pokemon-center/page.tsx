@@ -14,7 +14,7 @@ export default function PokemonCenter() {
     return (
         <>
             <Header />
-            <div className="z-0 flex flex-col h-screen w-screen bg-black">
+            <div className="z-0 flex flex-col h-auto w-screen bg-black">
                 <section className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
                     <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center">Welcome to the Pokémon Center</h3>
                     <Image
