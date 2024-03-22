@@ -20,7 +20,7 @@ export default function Info() {
             <section id="info-head" className="flex flex-col h-auto w-screen">
                 <div className="flex flex-row justify-center pt-6 pb-4">
                     <Image
-                    className="pokeball-spin h-16 w-16 min-[600px]:h-20 min-[600px]:w-20"
+                    className="pokeball-spin h-16 w-16 min-[600px]:h-24 min-[600px]:w-24 min-[2000px]:h-28 min-[2000px]:w-28"
                     src={PokeBall}
                     quality={100}
                     alt=""
@@ -48,7 +48,7 @@ export default function Info() {
                 </div>
                 <div className="flex flex-row justify-center items-end w-screen py-2 min-[600px]:py-16">
                     <a href="/info#info-conferences">
-                        <FaCircleArrowDown className="h-[8vh] w-[8vw] md:h-[6vh] md:w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
+                        <FaCircleArrowDown className="h-[8vh] w-[8vw] md:h-[6vh] md:w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
                     </a>
                 </div>
             </section>
@@ -75,7 +75,7 @@ export default function Info() {
                     </p>
                     <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
                         <a href="/info#info-coronation">
-                            <FaCircleArrowDown className="h-[6vh] w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
+                            <FaCircleArrowDown className="h-[6vh] w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
                         </a>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ export default function Info() {
                     </p>
                     <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
                         <a href="/info#info-tower">
-                            <FaCircleArrowDown className="h-[6vh] w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
+                            <FaCircleArrowDown className="h-[6vh] w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
                         </a>
                     </div>
                 </div>
@@ -135,7 +135,7 @@ export default function Info() {
                     </p>
                     <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
                         <a href="/info#info-safari">
-                            <FaCircleArrowDown className="h-[6vh] w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
+                            <FaCircleArrowDown className="h-[6vh] w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
                         </a>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ export default function Info() {
                     </p>
                     <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
                         <a href="/info#info-head">
-                            <FaCircleArrowUp className="h-[6vh] w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[4vh] min-[2000px]:w-[4vw]"/>
+                            <FaCircleArrowUp className="h-[6vh] w-[6vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
                         </a>
                     </div>
                 </div>
