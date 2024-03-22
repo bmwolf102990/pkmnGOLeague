@@ -27,7 +27,7 @@ export default function PokemonCenter() {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusantium explicabo, expedita maxime laborum odio, vel cumque nam laboriosam consectetur debitis eos aut nemo quisquam ratione, illo rerum deleniti harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, in distinctio mollitia blanditiis illum officiis nobis numquam culpa ad vero consequatur ducimus et quae beatae tenetur totam! Nesciunt, explicabo soluta.
                     </p>
-                    <a href="/pokemon-center#registration-section" className="text-center mt-8 mx-12">
+                    <a href="/pokemon-center#registration-section" className="text-center my-8 mx-12">
                         <button className="bg-green-500 hover:bg-green-300 text-black font-bold hover:outline hover:outline-offset-2 hover:outline-green-300 m-auto py-2 px-8 rounded">
                             Register Now
                         </button>
@@ -43,7 +43,7 @@ export default function PokemonCenter() {
                     />
                 </section>
                 <section className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
-                    <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center pb-8">League News</h3>
+                    <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center py-4">League News</h3>
                     <ResponsiveCarousel />
                 </section>
                 <section id="registration-section" className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl px-3 xl:px-6 min-[2000px]:px-12 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
