@@ -46,7 +46,7 @@ export const ResponsiveCarousel = () => {
           >
             {items.map((item, i) => (
               <div key={i} className="px-10 py-10 bg-gradient-to-br from-red-300 from-10% via-50% to-red-700 to-90% rounded">
-                <div className="mx-16">
+                <div className="mx-20">
                   <Image src={PokeBall} width={100} height={100} alt="slides" />
                 </div>
                 <div className="my-3">
