@@ -50,7 +50,7 @@ body {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .pokeball {
+  .pokeball-spin {
     animation: pokeball-spin infinite 05s linear;
   }
 }
