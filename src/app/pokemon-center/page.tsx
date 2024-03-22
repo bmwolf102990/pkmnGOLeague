@@ -51,7 +51,7 @@ export default function PokemonCenter() {
                     <span className="py-2 text-xs text-center font-thin">
                         please upload an image of your QR Battle Code, from the Pokémon GO app, for other trainers to scan
                     </span>
-                    <form className="grid grid-col-1 gap-2 max-[385px]:py-8 max-[385px]:px-4 justify-center border rounded text-center">
+                    <form className="grid grid-col-1 gap-2 max-[350px]:px-6 max-[350px]:py-8 max-[420px]:py-8 justify-center border rounded text-center">
                         <input className="p-1 rounded-sm text-black" type="text" placeholder="First Name" required/>
                         <input className="p-1 rounded-sm text-black" type="text" placeholder="Last Name"required/>
                         <input className="p-1 rounded-sm text-black" type="text" placeholder="Trainer Name" required/>
