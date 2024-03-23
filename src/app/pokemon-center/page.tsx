@@ -35,7 +35,7 @@ export default function PokemonCenter() {
                 </section>
                 <section>
                     <Image 
-                    className="w-screen h-1/4 min-[650px]:h-1/4 min-[700px]:h-[600px] min-[1000px]:h-[750px] min-[1400px]:h-[1050px] min-[2000px]:h-[1300px] min-[2500px]:h-[1600px]"
+                    className="w-screen h-1/4 min-[700px]:h-[350px] min-[1000px]:h-[500px] min-[1400px]:h-[700px] min-[2000px]:h-[1000px] min-[2500px]:h-[1250px]"
                     src={PokeCenter}
                     quality={100}
                     fill={false}
