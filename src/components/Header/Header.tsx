@@ -28,12 +28,12 @@ export const Header = () => {
                     <ul className="absolute h-screen w-screen bg-transparent text-black text-center border-t-2 border-black overflow-auto">
                         <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white">Home</li>
                         <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white">Pokémon Center</li>
-                        <li className="py-3 pl-16 border bg-white hover:bg-zinc-400 hover:text-white">
+                        <li className="py-3 pl-16 border bg-white hover:bg-zinc-400 hover:text-white" onClick={() => setIsTrainerResources(!isTrainerResources)}>
                             Trainer Resources
                             {isTrainerResources === false ?
-                            <BsCaretDownFill className="float-right my-1.5 mx-6" onClick={() => setIsTrainerResources(!isTrainerResources)}/>
+                            <BsCaretDownFill className="float-right my-1.5 mx-6" />
                             :
-                            <BsCaretUpFill className="float-right my-1.5 mx-6" onClick={() => setIsTrainerResources(!isTrainerResources)}/>
+                            <BsCaretUpFill className="float-right my-1.5 mx-6" />
                             }
                         </li>
                         {isTrainerResources === true ?
