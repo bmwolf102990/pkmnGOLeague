@@ -1,11 +1,10 @@
 "use client"
 
 import { Carousel } from "react-responsive-carousel";
-import { BiEnvelope } from "react-icons/bi";
 import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import Piplup from "../../../public/images/piplup.png";
+import Pokeball from "../../../public/images/pokeball.png";
 
 export const ResponsiveCarousel = () => {
     const items = [
@@ -47,7 +46,7 @@ export const ResponsiveCarousel = () => {
             {items.map((item, i) => (
               <div key={i} className="px-10 py-10 bg-gradient-to-br from-zinc-400 from-10% via-50% to-zinc-800 to-90% rounded">
                 <div className="mx-16 min-[370px]:mx-20 min-[400px]:mx-24 min-[500px]:mx-32 min-[550px]:mx-40 min-[600px]:mx-44 min-[650px]:mx-52 min-[700px]:mx-64  min-[1000px]:mx-96 min-[1400px]:mx-[550px] min-[2000px]:mx-[800px] min-[2500px]:mx-[1100px]">
-                  <Image src={Piplup} width={100} height={100} quality={100} alt="slides" />
+                  <Image src={Pokeball} width={100} height={100} quality={100} alt="slides" className="pokeball-spin" />
                 </div>
                 <div className="my-3">
                   <h2 className="mb-3 text-center">{item.title}</h2>

@@ -18,7 +18,7 @@ export default function PokemonCenter() {
                 <section className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
                     <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center">Welcome to the Pokémon Center</h3>
                     <Image
-                    className="w-screen py-6 px-16"
+                    className="w-screen py-6 px-16 min-[370px]:px-20 min-[400px]:px-24 min-[500px]:px-32 min-[550px]:px-40 min-[600px]:px-44 min-[650px]:px-52 min-[700px]:px-64  min-[1000px]:px-96 min-[1400px]:px-[550px] min-[2000px]:px-[800px] min-[2500px]:px-[1100px]"
                     src={NurseJoy}
                     quality={100}
                     fill={false}
@@ -35,7 +35,7 @@ export default function PokemonCenter() {
                 </section>
                 <section>
                     <Image 
-                    className="h-1/4 w-screen"
+                    className="w-screen h-1/4 min-[650px]:h-1/4 min-[700px]:h-[600px] min-[1000px]:h-[750px] min-[1400px]:h-[1050px] min-[2000px]:h-[1300px] min-[2500px]:h-[1600px]"
                     src={PokeCenter}
                     quality={100}
                     fill={false}
