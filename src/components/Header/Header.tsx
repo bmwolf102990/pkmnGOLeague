@@ -1,11 +1,12 @@
 import { useState } from "react";
 import Image from "next/image";
-import { BsHeartFill, BsList, BsX } from "react-icons/bs";
+import { BsHeartFill, BsList, BsX, BsCaretDownFill, BsCaretUpFill } from "react-icons/bs";
 
 import PokeBall from "../../../public/images/pokeball.png";
 
 export const Header = () => {
     const [isMobileMenu, setIsMobileMenu] = useState<boolean>(false);
+    const [isTrainerResources, setIsTrainerResources] = useState<boolean>(false);
 
     return(
         <>
@@ -20,19 +21,36 @@ export const Header = () => {
                     {isMobileMenu === false ? 
                     <BsList className="h-10 w-10" onClick={()=> setIsMobileMenu(!isMobileMenu)}/>
                     : 
-                    <BsX className="h-10 w-10" onClick={()=> setIsMobileMenu(!isMobileMenu)}/>
+                    <BsX className="h-10 w-10" onClick={()=> {setIsMobileMenu(!isMobileMenu); setIsTrainerResources(false)}}/>
                     }
                 </nav>
                 {isMobileMenu === true ? 
-                    <ul className="absolute h-auto w-screen bg-white text-black text-center border-t-2 border-black">
-                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Home</li>
-                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Pokémon Center</li>
-                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Trainer Resources</li>
-                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Trainer Dex</li>
-                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Conferences</li>
-                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Battle Tower</li>
-                        <li className="py-3 border hover:bg-zinc-400 hover:text-white">Safari Battle Zone</li>
-                        <li className="py-3 border hover:bg-zinc-400 hover:text-white *:hover:fill-white"><BsHeartFill className="inline fill-red-600 hover:parent:fill-white" /> Sponsor Us</li>
+                    <ul className="absolute h-screen w-screen bg-transparent text-black text-center border-t-2 border-black overflow-auto">
+                        <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white">Home</li>
+                        <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white">Pokémon Center</li>
+                        <li className="py-3 pl-16 border bg-white hover:bg-zinc-400 hover:text-white" onClick={() => setIsTrainerResources(!isTrainerResources)}>
+                            Trainer Resources
+                            {isTrainerResources === false ?
+                            <BsCaretDownFill className="float-right my-1.5 mx-6" />
+                            :
+                            <BsCaretUpFill className="float-right my-1.5 mx-6" />
+                            }
+                        </li>
+                        {isTrainerResources === true ?
+                        <>
+                            <li className="py-3 border bg-zinc-400 hover:bg-slate-600 text-white">News</li>
+                            <li className="py-3 border bg-zinc-400 hover:bg-slate-600 text-white">Rules</li>
+                            <li className="py-3 border bg-zinc-400 hover:bg-slate-600 text-white">File A Dispute</li>
+                            <li className="py-3 border bg-zinc-400 hover:bg-slate-600 text-white">FAQ</li>
+                        </>
+                        :
+                        null
+                        }
+                        <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white">Trainer Dex</li>
+                        <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white">Conferences</li>
+                        <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white">Battle Tower</li>
+                        <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white">Safari Battle Zone</li>
+                        <li className="py-3 border bg-white hover:bg-zinc-400 hover:text-white *:hover:fill-white"><BsHeartFill className="inline fill-red-600 hover:parent:fill-white" /> Sponsor Us</li>
                     </ul>
                 :null}
             </header>
