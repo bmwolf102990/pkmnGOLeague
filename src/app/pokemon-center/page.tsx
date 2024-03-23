@@ -3,8 +3,7 @@
 import Image from "next/image";
 import { Footer } from "@/components/Footer/Footer";
 import { Header } from "../../components/Header/Header";
-import { ResponsiveCarousel } from "../../components/ResponsiveCarousel/ResponsiveCarousel";
-// import { FaCircleArrowDown } from "react-icons/fa6"
+import { NewsCarousel } from "../../components/NewsCarousel/NewsCarousel";
 
 import PokeCenter from "../../../public/images/pokemon-center.jpg";
 import NurseJoy from "../../../public/images/nurse-joy.png"
@@ -44,7 +43,7 @@ export default function PokemonCenter() {
                 </section>
                 <section className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl px-6 xl:px-12 min-[2000px]:px-24 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
                     <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center py-4">League News</h3>
-                    <ResponsiveCarousel />
+                    <NewsCarousel />
                 </section>
                 <section id="registration-section" className="flex flex-col w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl px-3 xl:px-6 min-[2000px]:px-12 min-[600px]:text-center py-4 xl:py-8 min-[2000px]:py-16">
                     <h3 className="font-bold text-lg xl:text-2xl min-[2000px]:text-4xl text-center">Register To Compete</h3>
