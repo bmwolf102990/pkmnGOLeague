@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { Footer } from "@/components/Footer/Footer";
 import { Header } from "../../components/Header/Header";
-import { FaCircleArrowDown, FaCircleArrowUp } from "react-icons/fa6"
 
 import PokeBall from "../../../public/images/pokeball.png"
 import IndigoPlateau from "../../../public/images/indigo-plateau-conference.jpg";
@@ -42,17 +41,12 @@ export default function Info() {
                     <p className="py-2">
                         As a software engineer/web developer, I was able to put my professional skills to work in realizing my dream and building this platform. I hope you all enjoy it!
                     </p>
-                    <p className="font-bold text-center py-2">
+                    <p className="font-bold text-center pt-4 pb-6">
                         <span className="font-light"> - </span> BackpackerBMW
                     </p>
                 </div>
-                <div className="flex flex-row justify-center items-end w-screen py-2 min-[600px]:py-16">
-                    <a href="/info#info-conferences">
-                        <FaCircleArrowDown className="h-[8vh] w-[8vw] max-[650px]:min-[620px]:h-[5vh] max-[700px]:min-[620px]:w-[5vw] md:h-[5vh] md:w-[5vw] max-[900px]:min-[800px]:h-[8vh] max-[900px]:min-[800px]:w-[8vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
-                    </a>
-                </div>
             </section>
-            <section id="info-conferences" className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row-reverse">
+            <section className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row-reverse">
                 <Image
                 className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={IndigoPlateau}
@@ -70,22 +64,12 @@ export default function Info() {
                     <p className="py-2">
                         After the preliminary rounds conclude, competitors will be organized into brackets and single-elimination matches will begin. The last trainer standing will be crowned the champion of the respective region. 
                     </p>
-                    <p className="py-2">
+                    <p className="pt-2 pb-6">
                         Regional conference tournaments will each have unique pokémon eligibility restrictions. 
                     </p>
-                    <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
-                        <a href="/info#info-coronation">
-                            <FaCircleArrowDown className="h-[8vh] w-[8vw] max-[650px]:min-[620px]:h-[5vh] max-[700px]:min-[620px]:w-[5vw] md:h-[5vh] md:w-[5vw] max-[900px]:min-[800px]:h-[8vh] max-[900px]:min-[800px]:w-[8vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
-                        </a>
-                    </div>
-                </div>
-                <div className="flex flex-row justify-center items-end w-screen py-2 min-[600px]:hidden">
-                    <a href="/info#info-coronation">
-                        <FaCircleArrowDown className="h-[8vh] w-[8vw]"/>
-                    </a>
                 </div>
             </section>
-            <section id="info-coronation" className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row">
+            <section className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row">
                 <Image
                 className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={WorldCoronation}
@@ -100,22 +84,12 @@ export default function Info() {
                     <p className="py-2">
                         It will be a random draw single-elimination tournament for the title of Monarch.
                     </p>
-                    <p className="py-2">
+                    <p className="pt-2 pb-6">
                         There will also be Premier-, Ultra-, Great- and Normal-classed tournaments set up for qualifying trainers, based on their performances in the previous regional tournaments.
                     </p>
-                    <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
-                        <a href="/info#info-tower">
-                            <FaCircleArrowDown className="h-[8vh] w-[8vw] max-[650px]:min-[620px]:h-[5vh] max-[700px]:min-[620px]:w-[5vw] md:h-[5vh] md:w-[5vw] max-[900px]:min-[800px]:h-[8vh] max-[900px]:min-[800px]:w-[8vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
-                        </a>
-                    </div>
-                </div>
-                <div className="flex flex-row justify-center items-end w-screen py-2 min-[600px]:hidden">
-                    <a href="/info#info-tower">
-                        <FaCircleArrowDown className="h-[8vh] w-[8vw]"/>
-                    </a>
                 </div>
             </section>
-            <section id="info-tower" className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row-reverse">
+            <section className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row-reverse">
                 <Image
                 className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={BattleTower}
@@ -130,22 +104,12 @@ export default function Info() {
                     <p className="py-2">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod possimus incidunt molestiae, commodi sapiente harum illum qui architecto accusantium dolore dolorem. Iste molestias nobis veniam dolorem doloremque voluptatem beatae. Obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem deserunt hic, nam nemo, commodi magni eius harum nihil quibusdam laudantium tempore voluptatum cum ad veritatis quae aut minima ipsa id.
                     </p>
-                    <p className="py-2">
+                    <p className="pt-2 pb-6">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa hic consequatur quod culpa voluptatibus debitis assumenda excepturi, repellat totam, impedit enim provident ipsam delectus illum cumque. At, consequuntur ducimus.
                     </p>
-                    <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
-                        <a href="/info#info-safari">
-                            <FaCircleArrowDown className="h-[8vh] w-[8vw] max-[650px]:min-[620px]:h-[5vh] max-[700px]:min-[620px]:w-[5vw] md:h-[5vh] md:w-[5vw] max-[900px]:min-[800px]:h-[8vh] max-[900px]:min-[800px]:w-[8vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
-                        </a>
-                    </div>
-                </div>
-                <div className="flex flex-row justify-center items-end w-screen py-2 min-[600px]:hidden">
-                    <a href="/info#info-safari">
-                        <FaCircleArrowDown className="h-[8vh] w-[8vw]"/>
-                    </a>
                 </div>
             </section>
-            <section id="info-safari" className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row">
+            <section className="flex flex-col h-auto w-screen text-justify text-sm xl:text-lg min-[2000px]:text-2xl font-light min-[600px]:flex-row">
                 <Image
                 className="h-1/4 w-screen min-[600px]:h-auto min-[600px]:w-[55vw]"
                 src={SafariBoat}
@@ -160,19 +124,9 @@ export default function Info() {
                     <p className="py-2">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod possimus incidunt molestiae, commodi sapiente harum illum qui architecto accusantium dolore dolorem. Iste molestias nobis veniam dolorem doloremque voluptatem beatae. Obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem deserunt hic, nam nemo, commodi magni eius harum nihil quibusdam laudantium tempore voluptatum cum ad veritatis quae aut minima ipsa id.
                     </p>
-                    <p className="py-2">
+                    <p className="pt-2 pb-6">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa hic consequatur quod culpa voluptatibus debitis assumenda excepturi, repellat totam, impedit enim provident ipsam delectus illum cumque. At, consequuntur ducimus.
                     </p>
-                    <div className="flex flex-row justify-center w-[40vw] py-4 min-[2000px]:pr-16 max-[600px]:hidden">
-                        <a href="/info#info-head">
-                            <FaCircleArrowUp className="h-[8vh] w-[8vw] max-[650px]:min-[620px]:h-[5vh] max-[700px]:min-[620px]:w-[5vw] md:h-[5vh] md:w-[5vw] max-[900px]:min-[800px]:h-[8vh] max-[900px]:min-[800px]:w-[8vw] lg:h-[5vh] lg:w-[5vw] min-[2000px]:h-[3vh] min-[2000px]:w-[3vw]"/>
-                        </a>
-                    </div>
-                </div>
-                <div className="flex flex-row justify-center items-end w-screen py-2 min-[600px]:hidden">
-                    <a href="/info#info-head">
-                        <FaCircleArrowUp className="h-[8vh] w-[8vw]"/>
-                    </a>
                 </div>
             </section>
             <Footer />
