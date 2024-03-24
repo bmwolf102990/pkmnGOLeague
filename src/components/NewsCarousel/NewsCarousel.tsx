@@ -45,7 +45,7 @@ export const NewsCarousel = () => {
           >
             {items.map((item, i) => (
               <div key={i} className="px-10 py-10 bg-gradient-to-br from-zinc-400 from-10% via-50% to-zinc-800 to-90% rounded">
-                <div className="mx-16 min-[370px]:mx-24 min-[400px]:mx-28 min-[500px]:mx-36 min-[550px]:mx-44 min-[600px]:mx-52 min-[650px]:mx-56 min-[700px]:mx-64 min-[750px]:mx-72 min-[1000px]:mx-[420px] min-[1400px]:mx-[595px] min-[2000px]:mx-[815px] min-[2500px]:mx-[1100px]">
+                <div className="mx-16 min-[370px]:mx-24 min-[400px]:mx-28 min-[500px]:mx-36 min-[550px]:mx-44 min-[600px]:mx-52 min-[650px]:mx-56 min-[700px]:mx-64 min-[750px]:mx-72 min-[800px]:mx-80 min-[1000px]:mx-[420px] min-[1100px]:mx-[450px] min-[1400px]:mx-[595px] min-[2000px]:mx-[815px] min-[2500px]:mx-[1100px]">
                   <Image src={Pokeball} width={100} height={100} quality={100} alt="slides" className="pokeball-spin" />
                 </div>
                 <div className="my-3">
