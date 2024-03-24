@@ -45,12 +45,17 @@ export const NewsCarousel = () => {
           >
             {items.map((item, i) => (
               <div key={i} className="px-10 py-10 bg-gradient-to-br from-zinc-400 from-10% via-50% to-zinc-800 to-90% rounded">
-                <div className="mx-16 min-[370px]:mx-20 min-[400px]:mx-24 min-[500px]:mx-32 min-[550px]:mx-40 min-[600px]:mx-44 min-[650px]:mx-52 min-[700px]:mx-64  min-[1000px]:mx-96 min-[1400px]:mx-[550px] min-[2000px]:mx-[800px] min-[2500px]:mx-[1100px]">
+                <div className="mx-16 min-[370px]:mx-24 min-[400px]:mx-28 min-[500px]:mx-36 min-[550px]:mx-44 min-[600px]:mx-52 min-[650px]:mx-56 min-[700px]:mx-64 min-[750px]:mx-72 min-[1000px]:mx-[420px] min-[1400px]:mx-[595px] min-[2000px]:mx-[815px] min-[2500px]:mx-[1100px]">
                   <Image src={Pokeball} width={100} height={100} quality={100} alt="slides" className="pokeball-spin" />
                 </div>
                 <div className="my-3">
-                  <h2 className="mb-3 text-center">{item.title}</h2>
-                  <p>{item.text}</p>
+                  <h2 className="mb-3 text-center text-xl">{item.title}</h2>
+                  <p className="">{item.text}</p>
+                </div>
+                <div className="my-5">
+                  <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-zinc-500 py-2 px-4 border border-white hover:border-transparent rounded">
+                    Read More
+                  </button>
                 </div>
               </div>
             ))}
